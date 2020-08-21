@@ -1988,6 +1988,39 @@ input, select, textarea {
 				background-color: #3089e2;
 			}
 
+
+
+
+
+
+/*image button */
+
+	.imagecta {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+		border-radius: 2px;
+		border: 0;
+		cursor: pointer;
+		display: inline-block;
+		font-weight: bold;
+		height: 3.4em;
+		line-height: 2.95em;
+		padding: 0em 0em 0em 1em;
+		text-align: center;
+		text-decoration: none;
+		white-space: nowrap;
+	}
+
+
+
+	
+
 /* Form */
 
 	form {
@@ -2320,6 +2353,17 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+
+
+	/*.imagecta {
+			width: 40%;
+			position: absolute;
+			display: block;
+			text-align: center;
+			margin-top: 0;
+
+	}*/
+
 
 		.image.phone {
 			box-shadow: none;
@@ -2767,7 +2811,7 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
-			width: 70%;
+			width: 50%;
 		}
 
 			.spotlight .content > :last-child {
@@ -2932,7 +2976,8 @@ input, select, textarea {
 				border-top: solid 2px #eeeeee;
 				margin-bottom: 0;
 				margin-top: 3em;
-				padding-top: 3em;
+				padding-top: 6em;
+				padding-bottom: 6em;
 			}
 
 				.wrapper > .inner.alt > *:first-child {
@@ -3322,7 +3367,7 @@ input, select, textarea {
 
 			.wrapper.style2 a {
 				color: inherit;
-				text-decoration: underline;
+				/*text-decoration: underline;*/
 				border-bottom-color: #d6d6d6;
 			}
 
@@ -3809,7 +3854,7 @@ input, select, textarea {
 
 		#header a {
 			color: inherit;
-			border-bottom-color: rgba(255, 255, 255, 0.5);
+			border-bottom-color: rgba(255, 255, 255, 0);
 			color: #ffffff;
 		}
 

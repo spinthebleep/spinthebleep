@@ -4070,7 +4070,7 @@ input, select, textarea {
 	@media screen and (max-width: 480px) and (orientation: portrait) {
 
 		#header {
-			padding: 2em 1em 0.1em 1em ;
+			padding: 6em 1em 3em 1em ;
 		}
 
 	}
